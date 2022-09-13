@@ -1,0 +1,36 @@
+{
+    "files": {
+        "json_config_file_name": "bs-config.json",
+        "json_honeypot_data_file_name": "honeypot-paths-n-hashes.json",
+        "honeypot_names_file": "honeypot-names.txt",
+        "honeypot_interval_count_file_name": "honeypot_interval_count.txt",
+        "file_update_interval": 30
+    },
+    "honeypot": {
+        "honeypot_file_name": "r4n50mw4r3-d373c70r.txt",
+        "honeypot_file_extension": ".txt",
+        "random_honeypot_file_name": true,
+        "hidden_honeypot_file": true
+    },
+    "general": {
+        "delete_honeypots": false,
+        "skip_to_monitor": false,
+        "immediate_mode": false
+    },
+    "intervals": {
+        "honeypot_interval": 20,
+        "disable_honeypot_interval": false,
+        "check_ransom_time": 5,
+        "unknow_extension_event_count_trigger": 5,
+        "honeypot_modified_event_count_trigger": 0,
+        "honeypot_deleted_event_count_trigger": 0,
+        "folder_with_honeypots_deleted_event_count_trigger": 5
+    },
+    "software-paths": {
+        "PATH_TO_MAIN_FOLDER": "C:\\Users\\Matheus Heidemann\\Documents\\Github\\Challenge\\website-windows\\bunnyshield",
+        "PATH_TO_SOFTWARE_FOLDER": "C:\\Users\\Matheus Heidemann\\Documents\\Github\\Challenge\\website-windows\\bunnyshield\\software",
+        "PATH_TO_CONFIG_FOLDER": "C:\\Users\\Matheus Heidemann\\Documents\\Github\\Challenge\\website-windows\\bunnyshield\\software\\config",
+        "PATH_TO_CONFIG_FILE": "C:\\Users\\Matheus Heidemann\\Documents\\Github\\Challenge\\website-windows\\bunnyshield\\software\\config\\bs-config.json",
+        "PATH_TO_HONEYPOT_INTERVAL_COUNT_FILE": "C:\\Users\\Matheus Heidemann\\Documents\\Github\\Challenge\\website-windows\\bunnyshield\\software\\config\\honeypot_interval_count.txt"
+    }
+}
